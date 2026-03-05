@@ -4,12 +4,12 @@
 
 idade = 19
 sexo = 'F'
-
+a = 1
 
 def deve_alistar(idade:int, sexo:str):
     if idade > 18 and sexo == 'M':
         print('você pode se alistar')
     else:
         print('voce não pode se alistar')
-resultado = deve_alistar(idade, sexo)
-    
+
+deve_alistar(idade, sexo)
